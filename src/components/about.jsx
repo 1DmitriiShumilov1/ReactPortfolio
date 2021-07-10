@@ -18,7 +18,7 @@ const AboutMe = (props) => {
         <img className="about-image" src={img_me} alt="me" />
         <img className="about-image" src={img_computer} alt="computer" />
       </div>
-      <div className="about-text w-60 m-auto my-5">
+      <div className="about-text m-auto my-5">
         <h3>Get a deeper insight into who I am as a person</h3>
         <p className="text-secondary">
           My name is Dima (short for Dmitrii) and I am 20 years old. At my free

@@ -31,9 +31,6 @@
 .m-auto {
   margin: 0 auto;
 }
-.w-60 {
-  width: 60%;
-}
 .w-30-70 {
   width: 30vw;
 }
@@ -158,6 +155,9 @@
   max-width: 800px;
   max-height: fit-content;
 }
+.about-text {
+  width: 60%;
+}
 
 /*------------*/
 /* FOOTER.JSX */
@@ -173,6 +173,10 @@
 /*----------------*/
 /* MOBILE SUPPORT */
 /*----------------*/
+.phone-header {
+  height: 50vw;
+  font-size: 1em;
+}
 .mobile-add {
   display: none;
 }
@@ -197,6 +201,9 @@
     width: 100%;
     text-align: center;
   }
+  .about-description {
+    font-weight: bold;
+  }
   .used-technologies-container {
     margin: auto;
   }
@@ -217,6 +224,18 @@
   }
   .w-30-70 {
     width: 70%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .project-img:hover {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-text {
+    width: 90vw;
   }
 }
 
