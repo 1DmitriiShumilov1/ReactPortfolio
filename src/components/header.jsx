@@ -10,10 +10,10 @@ const Header = () => {
             : "p-5 text-center text-white no-margin"
         }
       >
-        <p className={window.innerWidth < 600 ? "fs-3" : "display-1"}>
+        <p className={window.innerWidth < 600 ? "display-3 " : "display-1"}>
           HELLO, I'M DMITRII
         </p>
-        <p className={window.innerWidth < 600 ? "fs-5" : "fs-3"}>
+        <p className={window.innerWidth < 600 ? null : "fs-3"}>
           Web Developer with functionality in mind
         </p>
       </div>
