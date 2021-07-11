@@ -59,6 +59,26 @@
   display: flex;
   align-items: center;
 }
+
+.legend {
+  transition-duration: 200ms;
+  width: fit-content;
+  position: fixed;
+  left: 94vw;
+  top: 45vh;
+  border: 1px solid #0d6efd;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.legend-nav {
+  padding: 0.3em;
+}
+.legend-nav:hover {
+  transition-duration: 200ms;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #0d6efd;
+}
 /*--------------*/
 /* PROJECTS.JSX */
 /*--------------*/
@@ -184,6 +204,13 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1300px) {
+  .legend {
+    transition-duration: 200ms;
+    left: 90vw;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .projects {
     padding: 10px;
@@ -233,6 +260,13 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  .legend {
+    transition-duration: 200ms;
+    left: 85vw;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .about-text {
     width: 90vw;
@@ -240,6 +274,10 @@
 }
 
 @media screen and (max-width: 500px) {
+  .legend {
+    transition-duration: 200ms;
+    left: 80vw;
+  }
   .skills {
     overflow: hidden;
   }

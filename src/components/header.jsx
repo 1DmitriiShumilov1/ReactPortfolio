@@ -1,8 +1,10 @@
 import React from "react";
+import Legend from "./common/legend";
 
 const Header = () => {
   return (
     <header className="curved-bottom bg-primary bg-gradient">
+      <Legend />
       <div
         className={
           window.innerWidth < 600
