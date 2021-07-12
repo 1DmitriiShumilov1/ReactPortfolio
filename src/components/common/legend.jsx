@@ -1,12 +1,29 @@
 import React, { Component } from "react";
 
+import { getHeaderHeight } from "../header";
+import { getIntroductionHeight } from "../introduction";
+
 class Legend extends Component {
   state = {
-    home: 0,
-    intro: 300,
-    projects: 1014,
-    about: 4820,
+    divHeight: this.props,
   };
+
+  componentDidMount() {
+    setTimeout(() => {
+      const headerHeight = getHeaderHeight();
+      const introductionHeight = getIntroductionHeight();
+      const projectsHeight = this.props.height;
+      console.log(projectsHeight);
+
+      this.setState({ home: 0 });
+      this.setState({ intro: headerHeight });
+      this.setState({ projects: headerHeight + introductionHeight });
+      this.setState({
+        about: headerHeight + introductionHeight + projectsHeight,
+      });
+    }, 800);
+    return;
+  }
 
   navigate(location) {
     window.scrollTo(0, this.state[location]);
@@ -27,7 +44,6 @@ class Legend extends Component {
         <div onClick={() => this.navigate("about")} className="legend-nav">
           About
         </div>
-        <p className="text-secondary m-0 small">*beta</p>
       </div>
     );
   }

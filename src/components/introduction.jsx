@@ -29,4 +29,10 @@ const Introduction = () => {
   );
 };
 
+export function getIntroductionHeight() {
+  const introductionHeight =
+    document.getElementsByClassName("introduction")[0].clientHeight + 48;
+  return introductionHeight;
+}
+
 export default Introduction;

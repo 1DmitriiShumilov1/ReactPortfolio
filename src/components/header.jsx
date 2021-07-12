@@ -3,7 +3,7 @@ import Legend from "./common/legend";
 
 const Header = () => {
   return (
-    <header className="curved-bottom bg-primary bg-gradient">
+    <header className="curved-bottom bg-primary bg-gradient header">
       <Legend />
       <div
         className={
@@ -22,5 +22,11 @@ const Header = () => {
     </header>
   );
 };
+
+export function getHeaderHeight() {
+  const headerHeight =
+    document.getElementsByClassName("header")[0].clientHeight;
+  return headerHeight;
+}
 
 export default Header;
