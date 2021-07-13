@@ -1,10 +1,8 @@
 import React from "react";
-import Legend from "./common/legend";
 
 const Header = () => {
   return (
-    <header className="curved-bottom bg-primary bg-gradient header">
-      <Legend />
+    <header id="home" className="curved-bottom bg-primary bg-gradient header">
       <div
         className={
           window.innerWidth < 600
@@ -22,11 +20,5 @@ const Header = () => {
     </header>
   );
 };
-
-export function getHeaderHeight() {
-  const headerHeight =
-    document.getElementsByClassName("header")[0].clientHeight;
-  return headerHeight;
-}
 
 export default Header;

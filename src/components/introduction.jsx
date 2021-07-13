@@ -3,7 +3,7 @@ import Profiles from "./common/profiles";
 
 const Introduction = () => {
   return (
-    <div className="container introduction pb-5">
+    <div id="intro" className="container introduction pb-5">
       <div className="img-container">
         <img src="/intro.jpg" className="img-fluid br-50" alt="intro" />
       </div>
@@ -28,11 +28,5 @@ const Introduction = () => {
     </div>
   );
 };
-
-export function getIntroductionHeight() {
-  const introductionHeight =
-    document.getElementsByClassName("introduction")[0].clientHeight + 48;
-  return introductionHeight;
-}
 
 export default Introduction;

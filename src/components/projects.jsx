@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { getProjects } from "./'services'/fakeDataService";
-import Legend from "./common/legend";
 
 import img_musician from "../img/projects/musician.jpg";
 import img_weather from "../img/projects/weather.jpg";
@@ -11,7 +10,6 @@ import img_blocks from "../img/projects/blocks.jpg";
 import img_violin from "../img/projects/violin.jpg";
 
 class Projects extends Component {
-  height = React.createRef();
   state = {
     projects: getProjects(),
     images: [
@@ -25,18 +23,9 @@ class Projects extends Component {
     ],
   };
 
-  componentDidMount() {
-    setTimeout(() => {
-      const projectsHeight = this.height.current.clientHeight;
-      this.setState({ divHeight: projectsHeight });
-      console.log(1, 2, this.state);
-    }, 100);
-  }
-
   render() {
     return (
-      <div className="all-projects" ref={this.height}>
-        <Legend height={this.state.divHeight} />
+      <div id="projects">
         <h1 className="text-center my-5 main-title">My Projects</h1>
         <div className="projects m-auto">
           {[...this.state.projects].map((project) => {

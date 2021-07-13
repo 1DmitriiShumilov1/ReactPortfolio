@@ -5,7 +5,7 @@ import img_computer from "../img/computer.jpg";
 
 const AboutMe = (props) => {
   return (
-    <div className="pb-5">
+    <div id="about" className="pb-5">
       <h1 className="text-center main-title py-4">About me</h1>
       <div
         className={

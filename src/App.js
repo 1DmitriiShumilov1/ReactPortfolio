@@ -4,6 +4,7 @@ import Projects from "./components/projects";
 import Introduction from "./components/introduction";
 import AboutMe from "./components/about";
 import Profiles from "./components/common/profiles";
+import Legend from "./components/common/legend";
 
 class App extends Component {
   state = {};
@@ -17,6 +18,7 @@ class App extends Component {
         <div className="footer bg-dark curved-top">
           <Profiles footer={true} />
         </div>
+        <Legend />
       </>
     );
   }
