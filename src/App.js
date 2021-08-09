@@ -5,6 +5,7 @@ import Introduction from "./components/introduction";
 import AboutMe from "./components/about";
 import Profiles from "./components/common/profiles";
 import Legend from "./components/common/legend";
+import PhotoEdits from "./components/photoEdits";
 
 class App extends Component {
   state = {};
@@ -14,6 +15,7 @@ class App extends Component {
         <Header />
         <Introduction />
         <Projects />
+        <PhotoEdits />
         <AboutMe classes="text-center m-auto container" />
         <div className="footer bg-dark curved-top">
           <Profiles footer={true} />

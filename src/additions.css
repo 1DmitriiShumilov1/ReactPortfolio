@@ -9,6 +9,10 @@
   min-height: 35vh;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 .curved-top {
   border-top-left-radius: 30%;
   border-top-right-radius: 30%;
@@ -68,7 +72,7 @@
   transition-duration: 200ms;
   width: fit-content;
   position: fixed;
-  left: 94vw;
+  left: 92vw;
   top: 45vh;
   border: 1px solid #0d6efd;
   border-radius: 5px;
@@ -159,6 +163,9 @@
 /*--------------*/
 /* PROFILES.JSX */
 /*--------------*/
+.testing {
+  padding: 2em 0;
+}
 .social-media {
   flex-direction: column;
   margin-top: 1em;
@@ -169,6 +176,22 @@
 }
 .clickable:hover {
   cursor: pointer;
+}
+
+.wrapper {
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.img-photoshop {
+  max-width: 500px;
+  width: 100%;
+  padding: 10px;
+}
+.before-auto {
+  margin: 0 10px 0 auto;
+}
+.after-auto {
+  margin: 0 auto 0 10px;
 }
 
 /*-----------*/
@@ -211,7 +234,7 @@
 @media screen and (max-width: 1300px) {
   .legend {
     transition-duration: 200ms;
-    left: 90vw;
+    left: 88vw;
   }
 }
 
@@ -267,7 +290,7 @@
 @media screen and (max-width: 800px) {
   .legend {
     transition-duration: 200ms;
-    left: 85vw;
+    left: 83vw;
   }
 }
 
@@ -280,7 +303,7 @@
 @media screen and (max-width: 500px) {
   .legend {
     transition-duration: 200ms;
-    left: 80vw;
+    left: 74vw;
   }
   .skills {
     overflow: hidden;
