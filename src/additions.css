@@ -163,9 +163,6 @@
 /*--------------*/
 /* PROFILES.JSX */
 /*--------------*/
-.testing {
-  padding: 2em 0;
-}
 .social-media {
   flex-direction: column;
   margin-top: 1em;
@@ -182,7 +179,14 @@
   margin: 0 auto;
   flex-wrap: wrap;
 }
+.slide-container {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+}
 .img-photoshop {
+  display: block;
+  margin: 0 auto;
   max-width: 500px;
   width: 100%;
   padding: 10px;
