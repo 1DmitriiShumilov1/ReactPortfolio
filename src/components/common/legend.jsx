@@ -1,7 +1,13 @@
 import React from "react";
 
 const Legend = () => {
-  return (
+  return window.innerWidth < 500 ? (
+    <div className="legend text-secondary text-end">
+      <a className="link-scroll" href="#home">
+        <p className="m-0 p-2">Home</p>
+      </a>
+    </div>
+  ) : (
     <div className="legend text-secondary text-end">
       <a className="link-scroll" href="#home">
         <p className="m-0 p-2">Home</p>

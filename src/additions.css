@@ -307,7 +307,8 @@
 @media screen and (max-width: 500px) {
   .legend {
     transition-duration: 200ms;
-    left: 74vw;
+    left: 80vw;
+    top: 92vh;
   }
   .skills {
     overflow: hidden;

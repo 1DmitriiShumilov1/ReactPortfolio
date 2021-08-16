@@ -50,18 +50,26 @@ const PhotoEdits = () => {
       <h1 className="text-center my-5 main-title">Photoshop skills</h1>
       <Slide autoplay={false} transitionDuration="750">
         <div className="each-slide">
-          <img class="img-photoshop" src={img_first_before} alt="1_before" />
+          <img
+            className="img-photoshop"
+            src={img_first_before}
+            alt="1_before"
+          />
         </div>
         <div className="each-slide">
-          <img class="img-photoshop" src={img_first_after} alt="1_after" />
+          <img className="img-photoshop" src={img_first_after} alt="1_after" />
         </div>
       </Slide>
       <Slide autoplay={false} transitionDuration="750">
         <div className="each-slide">
-          <img class="img-photoshop" src={img_second_before} alt="2_before" />
+          <img
+            className="img-photoshop"
+            src={img_second_before}
+            alt="2_before"
+          />
         </div>
         <div className="each-slide">
-          <img class="img-photoshop" src={img_second_after} alt="2_after" />
+          <img className="img-photoshop" src={img_second_after} alt="2_after" />
         </div>
       </Slide>
       <center>
