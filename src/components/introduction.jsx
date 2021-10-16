@@ -3,7 +3,7 @@ import Profiles from "./common/profiles";
 
 const Introduction = () => {
   return (
-    <div id="intro" className="container introduction pb-5">
+    <div className="container introduction pb-5">
       <div className="img-container">
         <img src="/intro.jpg" className="img-fluid br-50" alt="intro" />
       </div>
