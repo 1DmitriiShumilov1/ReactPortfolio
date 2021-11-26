@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap");
 
 * {
   font-size: 17px;
@@ -94,7 +95,7 @@ html {
 /* PROJECTS.JSX */
 /*--------------*/
 .main-title {
-  font-family: Courgette;
+  font-family: "Signika Negative";
 }
 .projects {
   padding: 20px;
