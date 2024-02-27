@@ -6,7 +6,7 @@ const Profiles = (props) => {
       className={props.footer === false ? "social-media" : "social-media mt-0"}
     >
       {props.footer === false ? (
-        <p className="fs-5 m-0">Useful links (:</p>
+        <p className="fs-5 m-0">Useful links</p>
       ) : (
         <p className="text-light fs-4 m-0">Dmitrii Shumilov</p>
       )}
@@ -31,19 +31,10 @@ const Profiles = (props) => {
         </a>
         <a
           className={window.innerWidth < 500 ? "m-3" : "m-4"}
-          href="https://www.linkedin.com/in/dima-shumilov/"
-          rel="noreferrer"
-          target="_blank"
-          title="linkedIn"
-        >
-          <i className="bi bi-linkedin fa-3x"></i>
-        </a>
-        <a
-          className={window.innerWidth < 500 ? "m-3" : "m-4"}
           href="mailto:11.dimashumilov.11@gmail.com?"
           rel="noreferrer"
           target="_blank"
-          title="mail"
+          title="email"
         >
           <i className="bi bi-envelope fa-3x"></i>
         </a>

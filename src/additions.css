@@ -25,6 +25,7 @@ html {
   -moz-border-top-left-radius: 30%;
   -moz-border-top-right-radius: 30%;
 }
+
 .curved-bottom {
   border-bottom-right-radius: 30%;
   border-bottom-left-radius: 30%;
@@ -37,25 +38,31 @@ html {
 .no-margin {
   margin: 0;
 }
+
 .m-auto {
   margin: 0 auto;
 }
+
 .w-30-70 {
   width: 30vw;
 }
+
 .width-75-100 {
   width: 75%;
 }
+
 .divider {
   border: 1px solid black;
   margin: 0 auto 3em auto;
   width: 20%;
 }
+
 .divider-light {
   border: 1px solid rgb(197, 197, 197);
   margin: 3em auto 1em auto;
   width: 20%;
 }
+
 .link-scroll {
   text-decoration: none;
 }
@@ -82,26 +89,31 @@ html {
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0);
 }
+
 .legend-nav {
   padding: 0.3em;
 }
+
 .legend-nav:hover {
   transition-duration: 200ms;
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.2);
   color: #0d6efd;
 }
+
 /*--------------*/
 /* PROJECTS.JSX */
 /*--------------*/
 .main-title {
   font-family: "Signika Negative";
 }
+
 .projects {
   padding: 20px;
   margin-top: 2em;
   width: 85%;
 }
+
 .container-project:not(:last-child) {
   padding-bottom: 2em;
 }
@@ -109,12 +121,15 @@ html {
 .container-project {
   display: flex;
 }
+
 .intro {
   width: 40%;
 }
+
 .about-project {
   width: 60%;
 }
+
 .about-container {
   width: 75%;
 }
@@ -126,12 +141,14 @@ html {
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
   transition: 300ms ease-in-out;
 }
+
 .img-wrapper {
   width: fit-content;
   display: flex;
   align-items: center;
   overflow: hidden;
 }
+
 .project-img:hover {
   transform: scale(1.1);
 }
@@ -155,10 +172,12 @@ html {
   flex-direction: column;
   margin-top: 3em;
 }
+
 .img-container {
   width: 200px;
   height: 200px;
 }
+
 .intro-text {
   width: 40%;
   margin-left: 2rem;
@@ -171,10 +190,12 @@ html {
   flex-direction: column;
   margin-top: 1em;
 }
+
 .logo,
 .px64 {
   width: 64px;
 }
+
 .clickable:hover {
   cursor: pointer;
 }
@@ -183,11 +204,13 @@ html {
   margin: 0 auto;
   flex-wrap: wrap;
 }
+
 .slide-container {
   width: 90%;
   max-width: 700px;
   margin: 0 auto;
 }
+
 .img-photoshop {
   display: block;
   margin: 0 auto;
@@ -195,9 +218,11 @@ html {
   width: 100%;
   padding: 10px;
 }
+
 .before-auto {
   margin: 0 10px 0 auto;
 }
+
 .after-auto {
   margin: 0 auto 0 10px;
 }
@@ -210,6 +235,7 @@ html {
   max-width: 800px;
   max-height: fit-content;
 }
+
 .about-text {
   width: 60%;
 }
@@ -232,9 +258,11 @@ html {
   height: 50vw;
   font-size: 1em;
 }
+
 .mobile-add {
   display: none;
 }
+
 .img-phone-support {
   width: 100%;
 }
@@ -252,38 +280,48 @@ html {
     margin-top: 1em;
     width: 95%;
   }
+
   .container-project {
     flex-direction: column;
     width: 100%;
     justify-content: center;
     align-items: center;
   }
+
   .about-project,
   .about-project p {
     width: 100%;
     text-align: center;
   }
+
   .about-description {
     font-weight: bold;
   }
+
   .used-technologies-container {
     margin: auto;
   }
+
   .intro {
     width: fit-content;
   }
+
   .mobile-add {
     display: block;
   }
+
   .mobile-remove {
     display: none;
   }
+
   .btn-container {
     display: flex;
   }
+
   .width-75-100 {
     width: 100%;
   }
+
   .w-30-70 {
     width: 70%;
   }
@@ -314,9 +352,11 @@ html {
     left: 80vw;
     top: 92vh;
   }
+
   .skills {
     overflow: hidden;
   }
+
   .curved-top {
     border-top-left-radius: 20%;
     border-top-right-radius: 20%;
@@ -325,6 +365,7 @@ html {
     -moz-border-top-left-radius: 20%;
     -moz-border-top-right-radius: 20%;
   }
+
   .curved-bottom {
     border-bottom-right-radius: 20%;
     border-bottom-left-radius: 20%;
@@ -333,6 +374,7 @@ html {
     -moz-border-bottom-right-radius: 20%;
     -moz-border-bottom-left-radius: 20%;
   }
+
   .about-image {
     width: 100%;
   }
