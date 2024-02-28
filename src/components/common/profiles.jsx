@@ -13,7 +13,7 @@ const Profiles = (props) => {
       <div className="flex">
         <a
           className={window.innerWidth < 500 ? "m-3" : "m-4"}
-          href="https://drive.google.com/file/d/1dl2aHJyN1AlmsFyOYbgAWELvfA25jOe9/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Ftj-MyOTYdaR10f6ib983ruq6TKBSxiz/view?usp=sharing"
           rel="noreferrer"
           target="_blank"
           title="resume"
