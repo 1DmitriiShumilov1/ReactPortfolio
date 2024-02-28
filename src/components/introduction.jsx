@@ -12,12 +12,12 @@ const Introduction = () => {
         I enjoy studying, working out, and spending good time with friends.
       </p>
       <div className="skills mt-4">
-        <img className="mx-2 px-48" src="/skills-logo/html.png" alt="html" />
-        <img className="mx-2 px-48" src="/skills-logo/css.png" alt="css" />
-        <img className="mx-2 px-48" src="/skills-logo/js.png" alt="js" />
-        <img className="mx-2 px64 px-48" src="/skills-logo/java-test.png" alt="java" />
-        <img className="mx-2 px64 px-48" src="/skills-logo/c.png" alt="c" />
-        <img className="mx-2 px-48" src="/skills-logo/react.png" alt="react" />
+        <img className="mx-2 px-48 phoneSupport" src="/skills-logo/html.png" alt="html" />
+        <img className="mx-2 px-48 phoneSupport" src="/skills-logo/css.png" alt="css" />
+        <img className="mx-2 px-48 phoneSupport" src="/skills-logo/js.png" alt="js" />
+        <img className="mx-2 px64 px-48 phoneSupport" src="/skills-logo/java-test.png" alt="java" />
+        <img className="mx-2 px64 px-48 phoneSupport" src="/skills-logo/c.png" alt="c" />
+        <img className="mx-2 px-48 phoneSupport" src="/skills-logo/react.png" alt="react" />
       </div>
       <div className="divider-light"></div>
       <Profiles footer={false} />

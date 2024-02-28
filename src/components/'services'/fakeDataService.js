@@ -1,19 +1,5 @@
 const projects = [
-  {
-    _key: "b8b7d9dfbdf789b8fa",
-    name: "Website for a Musician",
-    img_index: 0,
-    links: {
-      page: "https://vladimiromeltchenko.com",
-    },
-    description:
-      "Created a 4-page website with audio and videos for a musician from Portugals",
-    challenges: {
-      first: "Creating the 'double-sided' album covers (Media page).",
-      second: "Optimizing the covers for mobile devices",
-    },
-    usedTechnologies: "HTML | CSS",
-  },
+
   {
     _key: "b8b7d9dfbdf789b8fb",
     name: "Local Weather w/ fetch API",

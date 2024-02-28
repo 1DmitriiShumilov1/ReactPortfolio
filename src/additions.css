@@ -378,6 +378,10 @@ html {
   .about-image {
     width: 100%;
   }
+
+  .phoneSupport {
+    width: 36px;
+  }
 }
 
 @media screen and (max-width: 450px) {
