@@ -15,9 +15,6 @@ const Legend = () => {
       <a className="link-scroll" href="#projects">
         <p className="m-0 p-2">Projects</p>
       </a>
-      <a className="link-scroll" href="#photoshop">
-        <p className="m-0 p-2">Photoshop</p>
-      </a>
       <a className="link-scroll" href="#about">
         <p className="m-0 p-2">About</p>
       </a>
