@@ -22,7 +22,7 @@ const projects = [
     name: "Spaceship Game",
     img_index: 2,
     links: {
-      code: "https://dmitrii-shumilov.netlify.app",
+      code: "https://dimashumilov.netlify.app",
       page: "https://youtu.be/z24xxAo3g3c",
     },
     description:
@@ -39,7 +39,7 @@ const projects = [
     img_index: 3,
     links: {
       code: "https://github.com/1DmitriiShumilov1/TicTacToe",
-      page: "https://fancy-tictactoe.netlify.app",
+      page: "https://tic-tac-toe-shumilov.netlify.app",
     },
     description:
       "Created a Tic Tac Toe game in the browser. Can be played in two ways: Player vs Computer or Player vs Player.",
