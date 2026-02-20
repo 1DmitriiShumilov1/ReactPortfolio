@@ -14,7 +14,7 @@ const Header = () => {
           HELLO, I'M DMITRII
         </p>
         <p className={window.innerWidth < 600 ? null : "fs-3"}>
-          A Student at Sierra College
+          A Student at California State University, Sacramento
         </p>
       </div>
     </header>
