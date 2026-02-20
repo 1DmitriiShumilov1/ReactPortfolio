@@ -5,7 +5,7 @@ const Introduction = () => {
   return (
     <div className="container introduction pb-5">
       <div className="img-container">
-        <img src="/intro.jpg" className="img-fluid br-50" alt="intro" />
+        <img src="/intro_new.jpeg" className="img-fluid br-50" alt="intro" />
       </div>
       <p className="fs-4 text-success fw-bold">Welcome to my personal page</p>
       <p className="w-30-70 text-center text-secondary">
