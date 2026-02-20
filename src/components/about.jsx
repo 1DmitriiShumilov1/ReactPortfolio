@@ -21,7 +21,7 @@ const AboutMe = (props) => {
       <div className="about-text m-auto my-5">
         <h3>Get a deeper insight into who I am</h3>
         <p className="text-secondary">
-          My name is Dima (short for Dmitrii) and I am 22 years old. At my free
+          My name is Dmitrii and I am 25 years old. At my free
           time I enjoy working out, spending time with friends, and coding. Sometimes 
           I go for a bike ride at the picturesque trail near my house, or just go for
           a walk after a long day.
